@@ -1,0 +1,27 @@
+{
+  "license": "CC-BY-NC-4.0",
+  "repository": {
+    "type": "git",
+    "url": "longtail"
+  },
+  "name": "longtail",
+  "description": "Retrieves suggested keywords from the autocomplete functions of a variety of sources. Used on https://longtail.guru",
+  "version": "1.0.4",
+  "homepage": "http://www.justusbluemer.de/",
+  "author": {
+    "name": "Justus Blümer",
+    "email": "mail@justusbluemer.de",
+    "url": "http://www.justusbluemer.de/"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "lodash": "^3.8.0",
+    "request": "^2.55.0"
+  },
+  "readme": "This module was developed for [longtail.guru](https://longtail.guru) and serves the purpose of scraping the automatic keyword suggestion functions of the following web services:\n\n* Google\n* Bing\n* Qwant\n* Duckduckgo\n* Amazon\n* Otto\n* Playstore\n* Youtube\n* Youporn\n* Ebay\n\n## Example\n\n\tsuggest.google('how do you', function(suggests) {\n\t\tresponse.json(suggests);\n\t});",
+  "readmeFilename": "README.md",
+  "_id": "longtail@1.0.3",
+  "scripts": {},
+  "_shasum": "41ee08ccc1de684b0bfb12d8387809dd40fe7a9e",
+  "_from": "longtail@*"
+}
