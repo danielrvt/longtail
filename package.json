@@ -6,7 +6,7 @@
   },
   "name": "longtail",
   "description": "Retrieves suggested keywords from the autocomplete functions of a variety of sources. Used on https://longtail.guru",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "homepage": "http://www.justusbluemer.de/",
   "author": {
     "name": "Justus Blümer",
