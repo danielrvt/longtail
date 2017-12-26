@@ -95,7 +95,7 @@ module.exports = {
 		async.each(extensions, function requestSuggests(extension, cb){
 			var combination = keyword.concat(' ', extension);
 
-			var url = 'http://completion.amazon.com/search/complete?method=completion&q='.concat(combination, '&search-alias=aps&client=amazon-search-ui&mkt=4&fb=1&xcat=0&x=updateISSCompletion&sc=1');
+			var url = 'http://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=' + combination;  
 
 			request(url, function(err, res, body) {
 				if (!err && res.statusCode === 200) {
